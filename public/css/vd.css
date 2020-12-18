@@ -1,0 +1,62 @@
+#svgelem{
+            position: relative;
+            left: 50%;
+            -webkit-transform: translateX(-40%);
+            -ms-transform: translateX(-40%);
+            transform: translateX(-40%);
+}
+/* Maintenant le CSS */
+div {
+    width: 50px;
+    background: black;
+    display: inline-block;
+    margin-right: 15px;
+  }
+   
+  .barre-1 {
+    height: 50px;
+    transition: transform;
+    transform: rotate(-30deg);
+    position: relative;
+    top: 11px;
+    left: 100px;
+  }
+   
+  .barre-2 {
+    height: 100px;
+    transition: transform;
+    transform: rotate(-30deg);
+    position: relative;
+    top: 14px;
+    left: 100px;
+  }
+   
+  .barre-3 {
+    height: 150px;
+    transition: transform;
+    transform: rotate(-30deg);
+    position: relative;
+    top: 17px;
+    left: 100px;
+  }
+   
+  .barre-blanche {
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    transition: transform;
+    transform: rotate(90deg);
+    background: white;
+    height: 250px;
+  }
+   
+  p {
+    transition: transform;
+    transform: rotate(-90deg);
+    font-family: "Questrial";
+    font-weight: 900;
+    font-size: 4.8em;
+    position: absolute;
+    top: 27px;
+    left: -95px;
+  }
